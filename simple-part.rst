@@ -2,7 +2,7 @@ Designing a simple part
 =======================
 
 | Let's design a simple part consisting of a prism with a pocket. 
-| This should give a good overview on how to use **Dune 3D**.
+| This should give a good overview of how to use **Dune 3D**.
 
 .. image:: images/tutorial/final.png
 
@@ -70,7 +70,7 @@ Constrain the center of the **arc** to be on the origin of the workplane.
 | Click on the arc's center point, followed by the workplane origin.
 | Order doesn't matter.
 
-Right-click on either of these points to open the **context menu** and selecting **"Constrain point on point"**.
+Right-click on either of these points to open the **context menu** and select **"Constrain point on point"**.
 
 .. image:: images/tutorial/constrain-point.png
 
@@ -85,16 +85,16 @@ The added constraint is now visible in your drawing as a violet symbol above the
 Width
 ^^^^^
 
-To set the width to 5mm, right-click onto the horizontal line and to invoke the **constraining tool**.
+To set the width to 5mm, right-click on the horizontal line and invoke the **constraining tool**.
 
 .. image:: images/tutorial/constrain-horizontal-distance.png
 
-| Drag the appearing number away from the line to make it easier to read. 
-| Double-click it to enter the correct distance.
+| A number will appear; drag it away from the line to make it easier to read. 
+| Double-click on it to enter the correct distance.
 
 .. image:: images/tutorial/width-5mm.png
 
-Now We should be left with only one degree of freedom.
+Now we should be left with only one degree of freedom.
 
 .. note::
  You can also just select the line and press :kbd:`c` :kbd:`d`  :kbd:`h` 
@@ -126,7 +126,7 @@ The end result should have zero degrees of freedom and look like this:
 Extrude
 -------
 
-With the 2D sketch being fully constrained, let's make it 3D.
+With the 2D sketch now fully constrained, let's make it 3D.
 
 In the **workspace browser**, click the plus (+) icon to add an extrusion group. 
 
@@ -172,7 +172,7 @@ This might be is easier in wireframe view (solid model off).
  :kbd:`g` toggles between construction and normal line mode.
  
 | Make sure to start and end the line from the two corner points so that the point-point constraints are created automatically.
-| Watch the **bootom toolbar** and the color of the points to make sure you got them.
+| Watch the **bottom toolbar** and the color of the points to make sure you got them.
 
 .. image:: images/tutorial/draw-diagonal.png
 
@@ -287,5 +287,5 @@ Export
 
 
 
-| Here ends this tutorial, 
-| **Congratulation, you did a great job!**
+| Here ends this tutorial. 
+| **Congratulations, you did a great job!**
