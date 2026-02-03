@@ -132,7 +132,7 @@ In the **workspace browser**, click the plus (+) icon to add an extrusion group.
 
 .. image:: images/tutorial/extrusion-group.png
 
-| Now you see a grey 3d solid appearing.
+| Now you see a grey 3D solid appearing.
 | If you can't see it's sides, rotate the view by dragging with the right mouse button.
 
 .. note:: 
@@ -280,8 +280,8 @@ Add a chamfer on the top surface.
 Export
 ---------
 
-| :kbd:`Space` and type **export**
-| select **Export STL** to export a 3d printable file.
+| Press :kbd:`Space` and type **export**
+| Select **Export STL** to export a 3D printable file.
 
 .. image:: images/tutorial/export.png
 
